@@ -1,0 +1,10 @@
+.header {
+    width: 60%;
+    margin: auto;
+  }
+  
+  @media (min-width: 150px) and (max-width: 800.98px) {
+    .header {
+      width: 100%;
+    }
+  }

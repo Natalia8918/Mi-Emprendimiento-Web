@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*Typography*/
+.navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.logo img {
+  width: 70px;
+  padding: 10px 10px 10px 30px;
+}
+
+.menu ul {
+  padding: 30px 30px 10px 10px;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 4px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.menu a:hover {
+  color: orange;
+}
+
+.menu span i {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.menu span i:hover {
+  color: orange;
+}
+
+@media (min-width: 150px) and (max-width: 1100.98px) {
+  .menu ul {
+    display: none;
+  }
+}
+
+@media (min-width: 1100.98px) {
+  .menu span i {
+    display: none;
+  }
+}
+
+.main {
+  display: inline-block;
+  width: 95%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+}
+
+.sectionHTML {
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 4px;
+}
+
+.marco1 {
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 10px;
+}
+
+.sectionHTML div img {
+  width: 100%;
+}
+
+.sectionHTML div h5 {
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+}
+
+.sectionHTML div p {
+  padding: 10px 0px 10px 0px;
+}
+
+.sectionHTML div h6 {
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+}
+
+.Cursos {
+  border: 1px solid #000000;
+  padding: 20px;
+  margin: 4px;
+}
+
+.Cursos div div img {
+  width: 30%;
+  border-radius: 150px;
+  border: 1px solid #000000;
+}
+
+.web__svg {
+  width: 38%;
+  margin: auto;
+}
+
+.rectangulo-celeste {
+  position: relative;
+  -webkit-animation-name: rectangulo;
+          animation-name: rectangulo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 2g;
+          animation-delay: 2g;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rectangulo {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: translate(20%, 0%);
+            transform: translate(20%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@keyframes rectangulo {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: translate(20%, 0%);
+            transform: translate(20%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+.tuerca {
+  -webkit-animation-name: roja;
+          animation-name: roja;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transform-box: fill-box;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes roja {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes roja {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 150px) and (max-width: 767.98px) {
+  .main {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.Cursos div div {
+  text-align: center;
+}
+
+.Cursos div div h5 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Cursos div div ul li {
+  display: inline-block;
+  padding: 3px;
+  font-size: 22px;
+}
+
+.Cursos div button {
+  width: 100%;
+  background-color: #060606;
+  color: #FFFFFF;
+  font-size: 26px;
+}
+
+.Cursos div p {
+  padding: 10px;
+}
+
+.Cursos div ul {
+  padding: 30px;
+}
+
+.sectionHTML div ul li {
+  display: inline-block;
+  padding: 3px;
+}
+
+.header {
+  width: 60%;
+  margin: auto;
+}
+
+@media (min-width: 150px) and (max-width: 800.98px) {
+  .header {
+    width: 100%;
+  }
+}
+
+.footer {
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.footer p {
+  padding: 30px 0px 0px 180px;
+}
+
+.footer ul {
+  padding: 26px 180px 0px 0px;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 4px;
+}
+
+.footer__buttom {
+  background-color: orange;
+  padding: 2px;
+  border: orange;
+  margin-left: 1.5px;
+}
+
+.footer__buttom:hover {
+  background-color: #d5ec4d;
+}
+
+.legal ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@media (min-width: 150px) and (max-width: 800.98px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 200px;
+    text-align: auto;
+  }
+  .footer p {
+    padding: 0;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .footer ul {
+    padding: 0;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

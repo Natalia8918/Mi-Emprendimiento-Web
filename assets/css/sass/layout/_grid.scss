@@ -1,0 +1,127 @@
+.main {
+    display: inline-block;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+
+  }
+  .sectionHTML {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 4px;
+  }
+  .marco1 {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 10px;
+  }
+  .sectionHTML div img {
+    width: 100%;
+  }
+  .sectionHTML div h5 {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+  }
+  .sectionHTML div p {
+    padding: 10px 0px 10px 0px;
+  }
+  .sectionHTML div h6 {
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+  }
+  
+  .Cursos {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 4px;
+  }
+  .Cursos div div img {
+    width: 30%;
+    border-radius: 150px;
+    border: 1px solid #000000;
+  }
+
+  .web__svg {
+    width: 38%;
+    margin: auto;
+  }
+  
+  .rectangulo-celeste {
+    position: relative;
+    animation-name: rectangulo;
+    animation-duration: 4s;
+    animation-delay: 2g;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rectangulo {
+    0% {
+      transform: translate(0%, 0%);
+    }
+    50% {
+      transform: translate(20%, 0%);
+    }
+    100% {
+      transform: translate(0%, 0%);
+    }
+  }
+  
+  .tuerca { 
+    animation-name: roja;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes roja {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media (min-width: 150px) and (max-width: 767.98px) {
+    .main {
+      grid-template-columns: auto;
+    }
+  }
+
+  .Cursos div div {
+    text-align: center;
+  }
+
+  .Cursos div div h5 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .Cursos div div ul li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 22px;
+  }
+
+  .Cursos div button {
+    width: 100%;
+    background-color: #060606;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .Cursos div p {
+    padding: 10px;
+  }
+
+  .Cursos div ul {
+    padding: 30px;
+  }
+
+  .sectionHTML div ul li {
+    display: inline-block;
+    padding: 3px;
+  }
