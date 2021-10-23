@@ -4,17 +4,17 @@
     margin: auto;
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 50px;
+    grid-column-gap: 40px;
 
   }
   .sectionHTML {
     border: 1px solid #000000;
-    padding: 20px;
-    margin: 4px;
+    padding: 15px;
+    margin: 3px;
   }
   .marco1 {
     border: 1px solid lightgray;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
   }
   .sectionHTML div img {
@@ -34,8 +34,8 @@
   
   .Cursos {
     border: 1px solid #000000;
-    padding: 20px;
-    margin: 4px;
+    padding: 15px;
+    margin: 3px;
   }
   .Cursos div div img {
     width: 30%;
@@ -43,48 +43,6 @@
     border: 1px solid #000000;
   }
 
-  .web__svg {
-    width: 38%;
-    margin: auto;
-  }
-  
-  .rectangulo-celeste {
-    position: relative;
-    animation-name: rectangulo;
-    animation-duration: 4s;
-    animation-delay: 2g;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes rectangulo {
-    0% {
-      transform: translate(0%, 0%);
-    }
-    50% {
-      transform: translate(20%, 0%);
-    }
-    100% {
-      transform: translate(0%, 0%);
-    }
-  }
-  
-  .tuerca { 
-    animation-name: roja;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    transform-box: fill-box;
-    transform-origin: center;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes roja {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
   @media (min-width: 150px) and (max-width: 767.98px) {
     .main {
       grid-template-columns: auto;
@@ -108,9 +66,9 @@
 
   .Cursos div button {
     width: 100%;
-    background-color: #060606;
+    background-color: rgb(73, 73, 73);
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .Cursos div p {
@@ -118,10 +76,10 @@
   }
 
   .Cursos div ul {
-    padding: 30px;
+    padding: 20px 30px 30px 30px;
   }
 
   .sectionHTML div ul li {
     display: inline-block;
-    padding: 3px;
+  
   }
